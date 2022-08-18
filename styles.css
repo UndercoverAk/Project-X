@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://www.chrishazemusic.com/wp-content/uploads/2018/02/Website-Background-scaled.jpg);
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+img {
+  border-radius: 50px;
+  margin-right: 10px;
+}
+a {
+  color: black;
+}
+header {
+  background-color: rgb(240, 168, 12);
+}
